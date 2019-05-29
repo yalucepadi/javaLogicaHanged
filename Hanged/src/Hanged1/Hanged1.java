@@ -14,7 +14,7 @@ import java.util.*;
 public class Hanged1 {
 static int coinciden = 0;
 
-String [] Palabras = {"Java", "PHP"};
+String [] Palabras = {"java", "php"};
 
 static int numeroPalabra = (int) Math.round(Math.random());
 
@@ -42,7 +42,7 @@ Scanner entrada = new Scanner(in);
 
 out.print("Introduzca la letra: ");
 
-String cadena = entrada.next();
+String cadena = entrada.next().toLowerCase();
 
 //char [] charIntr = cadena.toCharArray();
 
